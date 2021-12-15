@@ -50,9 +50,9 @@ public class FirstSteps {
 
     public int min(int[] array) {
         int min = Integer.MAX_VALUE;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
+        for (int elem : array) {
+            if (elem < min) {
+                min = elem;
             }
         }
         return min;
